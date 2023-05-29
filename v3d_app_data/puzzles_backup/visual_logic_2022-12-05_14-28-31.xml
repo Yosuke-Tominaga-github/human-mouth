@@ -1,0 +1,947 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="0.000003814697720372351" scrolly="0" scale="1"></tab>
+  <tab name="main" type="MainTab" active="false" scrollx="149.04646951162704" scrolly="590.9295050047567" scale="0.5050679529955185">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="n*-diKAeq!HjBL(;)rv-" inline="false" x="-30" y="-1170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="*c8ZnNZT+RkL6gB@=];R">
+          <field name="FIELDNAME">Object_6.003</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="assignMaterial" id="^/QiIAz.iyzAXqLQYaM`">
+          <value name="VALUE2">
+            <shadow type="materialList" id="u+$Bc7.oPjn6_-uQ^/Zg">
+              <field name="FIELDNAME">selection_highlight_6.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="HA0WeaWP{#u_X}AZVbe%">
+              <field name="FIELDNAME">Object_6.003</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialValue" id="eT$mgzB4%(e5.Wv-Y(9c">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+              <field name="MAT_VAL_NAME">値</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="WoHWM{!O68HO/CI6Cf-u">
+                  <field name="FIELDNAME">selection_highlight_6.001</field>
+                </block>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="doVFi}7K(XN{+.gcumxK">
+                  <field name="NUM">0.5</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="assignMaterial" id="!cz~}{^K|`dz?M@A/j,2">
+          <value name="VALUE2">
+            <shadow type="materialList" id="W(?*/..@U^^3I8S0A_df">
+              <field name="FIELDNAME">teeth</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id=";V!7DX)et5={Bcx,2Lm/">
+              <field name="FIELDNAME">Object_6.003</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="gh:SN=sXv{1;j0f!l#i}" inline="false" x="-30" y="-910">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="?NyQpt=I-^N.Bz;e/7vO">
+          <field name="FIELDNAME">Object_6.020</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="assignMaterial" id="K?d3q%yL,PApl:U8?O]z">
+          <value name="VALUE2">
+            <shadow type="materialList" id="k;N^;fqv-^wTDg_htv+N">
+              <field name="FIELDNAME">selection_highlight_6.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="Ib1AJvQWyLA#Y1)Cl%nX">
+              <field name="FIELDNAME">Object_6.020</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialValue" id=":P)@}0/5-dbHh?YA),yo">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+              <field name="MAT_VAL_NAME">値</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="nKCIc%%%_j}QvgK=~;e4">
+                  <field name="FIELDNAME">selection_highlight_6.001</field>
+                </block>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="-?ji_Q@4OH}|D2q$g,wv">
+                  <field name="NUM">0.5</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="assignMaterial" id="z9c_kfdL(IzAJT/eqoQB">
+          <value name="VALUE2">
+            <shadow type="materialList" id="26jd,.[)IcJJBjG:4/!l">
+              <field name="FIELDNAME">teeth</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="0$Vh0Z]s,55W@=Um~RFe">
+              <field name="FIELDNAME">Object_6.020</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id=")Ycma)H}27v!5g`:oc#K" inline="false" x="-30" y="-670">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="#oOLHoAMn_UU-/k?C2=s">
+          <field name="FIELDNAME">Object_6.031</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="assignMaterial" id="fbmf|OHncxy6.;J/vr2M">
+          <value name="VALUE2">
+            <shadow type="materialList" id="YnPO#foW}{^z?MKK)A:R">
+              <field name="FIELDNAME">selection_highlight_6.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="d%r.,+MVfYh[%IRs|U#j">
+              <field name="FIELDNAME">Object_6.031</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialValue" id="Nmi8O{bq-8?K2$JKkE,|">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+              <field name="MAT_VAL_NAME">値</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="OU6yp3E:+@r8=xf[TT%?">
+                  <field name="FIELDNAME">selection_highlight_6.001</field>
+                </block>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="$cen_9)5p8T@^/%Me{C6">
+                  <field name="NUM">0.5</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="assignMaterial" id="|A/tE06b.m`P6cQstE2b">
+          <value name="VALUE2">
+            <shadow type="materialList" id="|:pk(mmHRzWIrgWiN+hw">
+              <field name="FIELDNAME">teeth</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="v_j}M_dxvS7A}jK4vdgg">
+              <field name="FIELDNAME">Object_6.031</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="]Xn|{:UH%H=1.ODy`ZdM" inline="false" x="-30" y="-430">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="siWS(.u0mN#_+tbr:~M;">
+          <field name="FIELDNAME">Object_6.048</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="assignMaterial" id="xm};=$`vSfF6rOOmzLRk">
+          <value name="VALUE2">
+            <shadow type="materialList" id="*i:n9!j)3!W!sZDB(`n]">
+              <field name="FIELDNAME">selection_highlight_6.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="EJY|S,YO4**CuI?yf1m8">
+              <field name="FIELDNAME">Object_6.048</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialValue" id="%QP_sY@Jws=KEWh2Q(5L">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+              <field name="MAT_VAL_NAME">値</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="(?^o_Zld(;)s8~TezNZ;">
+                  <field name="FIELDNAME">selection_highlight_6.001</field>
+                </block>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="{dIp$Z+fZkU:/rN6xwVy">
+                  <field name="NUM">0.5</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="assignMaterial" id="YBS=/_CO;mK$EF9`NTjP">
+          <value name="VALUE2">
+            <shadow type="materialList" id="kR@#XE7PMC+QWpmsS0V%">
+              <field name="FIELDNAME">teeth</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="o)}bq+1~Q+,ZJ_Z(7g-y">
+              <field name="FIELDNAME">Object_6.048</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="BF=f4u_xZ,%dR0IEKo=y" inline="false" x="-30" y="-190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="$@vsuK4DxVz$LMn.jK|N">
+          <field name="FIELDNAME">Object_6.061</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="assignMaterial" id="NSJ4-U`g}-(RsR]lUCIE">
+          <value name="VALUE2">
+            <shadow type="materialList" id="wdE*OfI2u?!qjPf@J(q*">
+              <field name="FIELDNAME">selection_highlight_6.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="jI~}dx8EW6y5W2#qbgY!">
+              <field name="FIELDNAME">Object_6.061</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialValue" id="YV3Ziw!rx`BgSe,ldo9j">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+              <field name="MAT_VAL_NAME">値</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="=HVTtFi)|.~qWg7G-qcH">
+                  <field name="FIELDNAME">selection_highlight_6.001</field>
+                </block>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="7)N~,cz]qbkdo@7a?#FQ">
+                  <field name="NUM">0.5</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="assignMaterial" id="?-`%Hy(cOB1!Jbo?K*k;">
+          <value name="VALUE2">
+            <shadow type="materialList" id="!Brr;CBwaZk4TNJ|w-3h">
+              <field name="FIELDNAME">teeth</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="7V(]WxlINAx@56W)!(L8">
+              <field name="FIELDNAME">Object_6.061</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="m_P]*@b|9ge4AAMeK$Ak" inline="false" x="-30" y="50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="?dG0T{G9D7`Y`=JO22G)">
+          <field name="FIELDNAME">Object_6.071</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="assignMaterial" id="KKq-|(8@ho]M3JkZfuJU">
+          <value name="VALUE2">
+            <shadow type="materialList" id="x+=q9JXH2yc{gPoATE]g">
+              <field name="FIELDNAME">selection_highlight_6.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="Hq9*g}`f0Hj_R/=Kcvr4">
+              <field name="FIELDNAME">Object_6.071</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialValue" id="Ot#LLe,_IN_wy^3wDl*e">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+              <field name="MAT_VAL_NAME">値</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="(Tfq/:uf#*UU0r!lI~BK">
+                  <field name="FIELDNAME">selection_highlight_6.001</field>
+                </block>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="dD6l)ao$RV?+e$7dm|*4">
+                  <field name="NUM">0.5</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="assignMaterial" id="W5X([^}QyZi`@Am839,.">
+          <value name="VALUE2">
+            <shadow type="materialList" id="z*?x8-SUXW@=Dj/BZsS=">
+              <field name="FIELDNAME">teeth</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="0u7KDFb@^!G)@Tc1+)M,">
+              <field name="FIELDNAME">Object_6.071</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="4:Rk,G!E%,J5!axzN%PP" x="-50" y="270">
+      <value name="ID">
+        <shadow type="text" id="UW4_X*(.Mc^mkBHRt*yt">
+          <field name="TEXT">autorotate</field>
+        </shadow>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="aIsEI{HTm_VdeZDqtIbb">
+          <field name="NUM">7</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="R:{81uP*e)c4bgHDSi=8">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="Uky]o6*xw7mQs@t9rF_z">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="?6WOUUVl;f{!(Ee_TwJl">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="5kW+o%zib9ptF5M)@nE9" inline="false" x="-50" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="+!~V|muOhYN0=[WSX!Ae">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="EJUj:^!m.CH_y:.8-D+^"></block>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="loibH`rK(k`]x0|Bf7AT">
+          <field name="ON_OFF">OFF</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="f%/CZs,|;LVPanN_]26[">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setTimer" id=".nJWD@L6F`b1[gbzC$Z^">
+              <value name="ID">
+                <shadow type="text" id="dgOV`h+7w{w_NbkcQ04{">
+                  <field name="TEXT">autorotate</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="yidx;/8t!=e_#tLmZbII">
+                  <field name="NUM">7</field>
+                </shadow>
+              </value>
+              <value name="REPEAT">
+                <shadow type="math_number" id="DSEsWDN_%;=j)r`$W)lJ">
+                  <field name="NUM">Infinity</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="autoRotateCamera" id="kV3|1C}cA(0JkmT#5PMr">
+                  <field name="ON_OFF">ON</field>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="Irq/C.xfl]N9|9qI`Jg?">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="Annotations" type="SecondaryTab" active="true" scrollx="830.548163720675" scrolly="924.3153285168369" scale="0.556837418177559">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="mc#0LDIdC#W,ZwAM(l,#" inline="false" x="-330" y="-1610">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="I#@COjs0jf`eZLwQ.{u8">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="tR-w:9yD)~@g4|5d$#aK"></block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="addAnnotation" id="}srnL%e-D_]*~p%y0EV=">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="PZNloA!]wA-z`Z0gOFpD">
+              <field name="TEXT">i</field>
+            </shadow>
+            <block type="text" id="9=`,+%u8758_e/a4oA8C">
+              <field name="TEXT">i</field>
+            </block>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="{-Cd})H|zt]U!^*3:Fmq">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="/,lzn+DN1T%:Q/6V5Vf7">
+              <field name="FIELDNAME">Object_6.069.emp1.001</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="cg/w(JCs=2zUzhxry5pf">
+              <field name="TEXT"></field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="$nZGjHAnm:!N|N{RU/g5">
+              <field name="TEXT">an_1</field>
+            </shadow>
+            <block type="text" id="bi+@Mx2|O@x3,Soa99+M">
+              <field name="TEXT">an1</field>
+            </block>
+          </value>
+          <next>
+            <block type="eventHTMLElem" id="lL*H9}}AKq6EX;@}YS,!">
+              <field name="EVENT">click</field>
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="B4n-hc,C^jY(72~h^0V]">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="-Vbfp-WgLDovTdd*.3Td">
+                  <field name="TEXT">an1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="addHTMLElement" id="4D^E93?a9oOJD8BF_q|G">
+                  <field name="ELEMENT">div</field>
+                  <field name="MODE">TO</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="w@tm9s06[U3y7w4WM[cy">
+                      <field name="TEXT">button_1</field>
+                    </shadow>
+                    <block type="text" id="2i0/@~VbHKa@P}V|VS:l">
+                      <field name="TEXT">block</field>
+                    </block>
+                  </value>
+                  <value name="TARGET_ID">
+                    <shadow type="DOMObjectSelector" id="tcIUvx:0`rVQ]R7Y3=*e">
+                      <field name="DOM_OBJECT">CONTAINER</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id="^1iVqzM`@fXNd.1O3Inm">
+                      <field name="ATTRIBUTE">innerHTML</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="textMultiline" id="#}(IbJBk$!JlH7VO+k`#">
+                          <field name="HIGHLIGHT_MODE">html</field>
+                          <field name="TEXT" editor-height="19" editor-width="363.49166815625017">    &lt;div id="popup1" class="popup-overlay" style="display: none"&gt;&amp;#10;      &lt;div class="popup1-div" data-animate-on-scroll&gt;&amp;#10;        &lt;div class="card-div"&gt;&amp;#10;          &lt;div class="mainbody-div"&gt;&amp;#10;            &lt;div class="cardimage-div"&gt;&amp;#10;              &lt;img class="image-icon" alt="" src="public/image@2x.png" /&gt;&amp;#10;            &lt;/div&gt;&amp;#10;            &lt;div class="textbody-div"&gt;&amp;#10;              &lt;div class="cardtitle-div"&gt;中切歯　ちゅうせっし&lt;/div&gt;&amp;#10;              &lt;div class="cardexplanation-div"&gt;&amp;#10;                &lt;p class="p"&gt;&amp;#10;                  歯列の一番前にあって，食べ物を口の中へ取り込む役目をしています。&amp;#10;                &lt;/p&gt;&amp;#10;              &lt;/div&gt;&amp;#10;            &lt;/div&gt;&amp;#10;            &lt;div class="closebutton-div"&gt;&amp;#10;              &lt;div class="close-div"&gt;閉じる&lt;/div&gt;&amp;#10;            &lt;/div&gt;&amp;#10;          &lt;/div&gt;&amp;#10;        &lt;/div&gt;&amp;#10;      &lt;/div&gt;&amp;#10;    &lt;/div&gt;&amp;#10;</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="k7o8i1b:n5{nq=75~Yd8">
+                          <field name="TEXT"></field>
+                        </shadow>
+                        <block type="text" id="nXqk9N}MQMOLf+6h`K22">
+                          <field name="TEXT">block</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="/msi1KbVf@_:NX9;Ka^S">
+                          <field name="ATTRIBUTE">style</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <block type="textMultiline" id="8(RA|gozBry`/y#v])7|">
+                              <field name="HIGHLIGHT_MODE">css</field>
+                              <field name="TEXT" editor-height="19" editor-width="363.49166815625017">position: absolute;&amp;#10;top: 10%; right:10%;&amp;#10;width: 300px; height: 200px;&amp;#10;background-color: #ffffff;&amp;#10;</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="k7o8i1b:n5{nq=75~Yd8">
+                              <field name="TEXT"></field>
+                            </shadow>
+                            <block type="text" id="y,3dmy0dVuUdrp:g,L,!">
+                              <field name="TEXT">block</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="addAnnotation" id="]cT4kQ%4.hlb7cM3KCuW">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="VD[PTa}IVDe~:nbt$0EF">
+                      <field name="TEXT">i</field>
+                    </shadow>
+                    <block type="text" id="lgb1x`5=jEME=9N7i7x(">
+                      <field name="TEXT">i</field>
+                    </block>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="{-Cd})H|zt]U!^*3:Fmq">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="33T{/AO.H_fWWo-5s:=g">
+                      <field name="FIELDNAME">Object_6.069.emp1.004</field>
+                    </block>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="Qr?E?*-mfHdQmYnvfnsV">
+                      <field name="TEXT">第二大臼歯</field>
+                    </shadow>
+                    <block type="text" id="g|2V.?7BVmMh*ZNP1vvu">
+                      <field name="TEXT">第二大臼歯</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="s}HpLB7Rx/eWA+8uZ6bQ">
+                      <field name="TEXT">an_2</field>
+                    </shadow>
+                    <block type="text" id="(DA%3ghq?mtu)*~[DsLJ">
+                      <field name="TEXT">an2</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="addAnnotation" id="qRUYLYxcVn)t9DU@E#ZO">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                      <value name="ANNOTATION">
+                        <shadow type="text" id="4zZiIlz/[AU~~A@cccNg">
+                          <field name="TEXT">i</field>
+                        </shadow>
+                        <block type="text" id=".!I[Oa#-Ui6tu+!L+e.v">
+                          <field name="TEXT">i</field>
+                        </block>
+                      </value>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="{-Cd})H|zt]U!^*3:Fmq">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id=".$:bNL)gf?#E02UF94l7">
+                          <field name="FIELDNAME">Object_6.069.emp1</field>
+                        </block>
+                      </value>
+                      <value name="CONTENTS">
+                        <shadow type="text" id="Fw1}bP45t-~p(+(P({n-">
+                          <field name="TEXT">第一小臼歯</field>
+                        </shadow>
+                        <block type="text" id=".Dg@bOfuPx~8eKtPEVIC">
+                          <field name="TEXT">第一小臼歯</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="Q27tHhrd918:7|m52z]P">
+                          <field name="TEXT">an_3</field>
+                        </shadow>
+                        <block type="text" id="OJB+#=DgrIaF,zZ:+B:m">
+                          <field name="TEXT">an3</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="addAnnotation" id="rJ8tVTK~yw^q1ZGgAo!)">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                          <value name="ANNOTATION">
+                            <shadow type="text" id="37Tj)hdbENLU}%p#nOea">
+                              <field name="TEXT">i</field>
+                            </shadow>
+                            <block type="text" id="SuK2[N!`eHn|RA]2K/x}">
+                              <field name="TEXT">i</field>
+                            </block>
+                          </value>
+                          <value name="TARGET">
+                            <shadow type="objectList" id="{-Cd})H|zt]U!^*3:Fmq">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="xT9eJ0j5l||8HG|4G9q%">
+                              <field name="FIELDNAME">Object_6.069.emp1.002</field>
+                            </block>
+                          </value>
+                          <value name="CONTENTS">
+                            <shadow type="text" id="CCtQa|BT9-NN21)791dV">
+                              <field name="TEXT">犬歯</field>
+                            </shadow>
+                            <block type="text" id="1/!3ete`U@D|s@[XG3I[">
+                              <field name="TEXT">犬歯</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id=":2nw]Y^lQ;|U6k#Gt_tv">
+                              <field name="TEXT">an_4</field>
+                            </shadow>
+                            <block type="text" id="z9COUVh$k4I+p-K$HLaf">
+                              <field name="TEXT">an4</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="addAnnotation" id="dcJf}2{yIeH1%-MMSq.E">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                              <value name="ANNOTATION">
+                                <shadow type="text" id="pkG[G#dy}jd*9c71Y0K/">
+                                  <field name="TEXT">i</field>
+                                </shadow>
+                                <block type="text" id="W:vQj3$EqZeZDfN!NYm{">
+                                  <field name="TEXT">i</field>
+                                </block>
+                              </value>
+                              <value name="TARGET">
+                                <shadow type="objectList" id="{-Cd})H|zt]U!^*3:Fmq">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="U!~`Gq7a%rG(#z;nQQ~m">
+                                  <field name="FIELDNAME">Object_6.069.emp1.005</field>
+                                </block>
+                              </value>
+                              <value name="CONTENTS">
+                                <shadow type="text" id="Ov@GWtLy$`ur~[uAPNNw">
+                                  <field name="TEXT">中切歯</field>
+                                </shadow>
+                                <block type="text" id="UQ%rL|Nbp=fE0h]zf^C!">
+                                  <field name="TEXT">中切歯</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="BP{jL7h@$r22D.+)DJ-`">
+                                  <field name="TEXT">an_5</field>
+                                </shadow>
+                                <block type="text" id="pW;%IFxlYO0WMO_!:=y8">
+                                  <field name="TEXT">an5</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="addAnnotation" id="~m`o)sHI-Ox?nzwgg8eb">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                                  <value name="ANNOTATION">
+                                    <shadow type="text" id="y5~9=KMU9s{2588Ua:|h">
+                                      <field name="TEXT">i</field>
+                                    </shadow>
+                                    <block type="text" id="!,p(|aT/4j6@xVsM~a=J">
+                                      <field name="TEXT">i</field>
+                                    </block>
+                                  </value>
+                                  <value name="TARGET">
+                                    <shadow type="objectList" id="{-Cd})H|zt]U!^*3:Fmq">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="objectList" id=",?64.tC.`X0sb:ljS@=c">
+                                      <field name="FIELDNAME">Object_6.069.emp1.003</field>
+                                    </block>
+                                  </value>
+                                  <value name="CONTENTS">
+                                    <shadow type="text" id="S0H4c2c{8O-UfU`pHh*B">
+                                      <field name="TEXT">犬歯</field>
+                                    </shadow>
+                                    <block type="text" id="XRmYCb9jXvSQY3`/-b4L">
+                                      <field name="TEXT">犬歯</field>
+                                    </block>
+                                  </value>
+                                  <value name="ID">
+                                    <shadow type="text" id="]7GpG.=!iQ%Y?VBo]-5m">
+                                      <field name="TEXT">an_6</field>
+                                    </shadow>
+                                    <block type="text" id="JOVDgbdX3xe1sE3zeA=f">
+                                      <field name="TEXT">an6</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setHTMLElemStyle" id="yH^]xYrLA!%D:Xbpp^Z2">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="w49|0ttiM/3j;kxbVZs.">
+              <field name="TEXT">none</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="-|9^%pomH=ol}YZcbFrL">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="lists_create_with" id="4+M?Yzu:%n}wZl04TB.*">
+              <mutation items="6"></mutation>
+              <value name="ADD0">
+                <block type="text" id="8}v_;LJ;S[6:0.NSRFho">
+                  <field name="TEXT">an1</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="text" id="jv2}^,;)SHqKrB*5SEDo">
+                  <field name="TEXT">an2</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="text" id="BWkX^DYriWrj:fs0~f{C">
+                  <field name="TEXT">an3</field>
+                </block>
+              </value>
+              <value name="ADD3">
+                <block type="text" id=")D@}+?YS/7y~%A7tRGNT">
+                  <field name="TEXT">an4</field>
+                </block>
+              </value>
+              <value name="ADD4">
+                <block type="text" id="0vo[uv|S%@m#y!4I,oL#">
+                  <field name="TEXT">an5</field>
+                </block>
+              </value>
+              <value name="ADD5">
+                <block type="text" id=":)?eSBy{M[-vBJ^}5@B)">
+                  <field name="TEXT">an6</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="?]mq;fky+lQdBdNz(hvV">
+              <field name="PROPERTY">visibility</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="cK|P,ADBXDyc8QlGWaFL">
+                  <field name="TEXT">hidden</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="?M(~d,E2+uk|^-xrWxgw">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="@dDv**2;F%vlQ?2dG8G~">
+                  <field name="TEXT">block</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="_)oCSrcn2Q[muF2z.P2R" x="990" y="-1630">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="B4n-hc,C^jY(72~h^0V]">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="text" id="Ui#Cf~fARw7X^)mr!U-)">
+          <field name="TEXT">an1</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="setHTMLElemStyle" id="MU];.*-I(?)hOstCPvw^">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="Z_/X-M@CJk3A2d(|Oy7U">
+              <field name="TEXT">block</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="(UF6Of?R9ZsXui,T$33t">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="text" id="e,m;z.*f_wGGpPbv.4}%">
+              <field name="TEXT">popup1</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="text" id="Hk[j{{.@N0e.y,h_a|LD" x="630" y="-1569">
+      <field name="TEXT">中切歯</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="text" id="f(c-;l(O[woM~/H#T$jD" x="1630" y="-1230">
+      <field name="TEXT">popup1</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="ws3sB4;uS*6YNy{_Xp=o" x="930" y="-1030">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="]I.8_`]GQG[MNv{Pc__t">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="text" id="60N5gd{(q(~3tCa/tE=X">
+          <field name="TEXT">popup1</field>
+        </block>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="`]1J]U#p7DS96Yc8ShH~">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemAttribute" id="Hz#@7C+.DddX*NZ:p-ib" x="1130" y="-870">
+      <field name="ATTRIBUTE">innerHTML</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="+p$/[e[=Y4[2c_5C1{}^">
+          <field name="TEXT">Test</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="1%1lrDdraWG*)sWapjI?">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="text" id="(J[VW7y%dLj1](K*eUz=">
+          <field name="TEXT">button_1</field>
+        </block>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="pZhaGtj^?8f/0OEX5dzE">
+          <field name="ATTRIBUTE">style</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="k7o8i1b:n5{nq=75~Yd8">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="text" id="@orXf*QD|9CcAnHa{Oh6">
+              <field name="TEXT">button_1</field>
+            </block>
+          </value>
+          <next>
+            <block type="eventHTMLElem" id="t*wz6U]H?zWEHD[2KL/k">
+              <field name="EVENT">click</field>
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="BwOEQ!e:G73iu7$v(hg9">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="fX3CkV/kHFqH3GlWK,qQ">
+                  <field name="TEXT">button_1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="addHTMLElement" id="]P6({P`lAp$jky7~T+JR">
+                  <field name="ELEMENT">div</field>
+                  <field name="MODE">TO</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="k~hEeT]vIi[].tO^zz0;">
+                      <field name="TEXT">modal</field>
+                    </shadow>
+                    <block type="text" id="8_riM4I%4o[C`m(oA)]R">
+                      <field name="TEXT">modal</field>
+                    </block>
+                  </value>
+                  <value name="TARGET_ID">
+                    <shadow type="DOMObjectSelector" id="$rq19V~4S.ll8S%~kTlj">
+                      <field name="DOM_OBJECT">CONTAINER</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id="jM$)*|)_/G4#6Bzegc2X">
+                      <field name="ATTRIBUTE">style</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="I=L+A[,YKBsh)YH:Jf2{">
+                          <field name="TEXT"></field>
+                        </shadow>
+                        <block type="text" id="[sKE2*w8rbzJ1qBeu8j.">
+                          <field name="TEXT">modal</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1952.96875" viewport-y="49.25" viewport-w="611.25" viewport-h="497.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

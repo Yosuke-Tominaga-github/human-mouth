@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="118.24251205318637" scrolly="170.17080991957891" scale="0.6715938569729647">
+    <block xmlns="https://developers.google.com/blockly/xml" type="objectList" id="*P|A+.Ho+X2Hd$0kY=2f" x="230" y="330">
+      <field name="FIELDNAME">Sketchfab_model</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="5kW+o%zib9ptF5M)@nE9" inline="false" x="-50" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="+!~V|muOhYN0=[WSX!Ae">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="EJUj:^!m.CH_y:.8-D+^"></block>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="loibH`rK(k`]x0|Bf7AT">
+          <field name="ON_OFF">OFF</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="f%/CZs,|;LVPanN_]26[">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="702" viewport-y="28" viewport-w="480" viewport-h="475.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

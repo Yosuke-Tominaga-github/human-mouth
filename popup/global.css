@@ -1,0 +1,24 @@
+:root {
+  /* fonts */
+  --font-noto-sans-jp: "Noto Sans JP";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 24px;
+
+  /* Colors */
+  --m3-white: #fff;
+  --color-gray-100: #474747;
+  --color-gray-200: #181818;
+
+  /* Gaps */
+  --gap-sm: 16px;
+  --gap-md: 20px;
+
+  /* Paddings */
+  --padding-md: 16px;
+
+  /* border radiuses */
+  --br-md: 4px;
+}
