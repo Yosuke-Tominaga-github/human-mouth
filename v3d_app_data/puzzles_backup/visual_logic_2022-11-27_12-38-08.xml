@@ -1,0 +1,157 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="68.56035650544516" scrolly="293.67881397120357" scale="0.8163265306122448">
+    <block xmlns="https://developers.google.com/blockly/xml" type="objectList" id="X[5T0e]*0#F:9i:4_RIL" x="370" y="-150">
+      <field name="FIELDNAME">Object_6.048</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id=":dw,k+%2SCI8k~cy*L4s" inline="false" x="-70" y="-50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="rpHr`*fb@{ExSIfe^vsK">
+          <field name="FIELDNAME">Object_6.048</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setMaterialValue" id="eT$mgzB4%(e5.Wv-Y(9c">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="WoHWM{!O68HO/CI6Cf-u">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="doVFi}7K(XN{+.gcumxK">
+              <field name="NUM">0.5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setMaterialValue" id="rro*#k(Ln8Es5v_3Vy@z">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="s+z)]UzvZDY5ovodarn{">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="b2q-}g9,~?H?M9|0A=cd">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="assignMaterial" id="[HxY|ak86GY=}:1KR55E" x="10" y="130">
+      <value name="VALUE2">
+        <shadow type="materialList" id="lKGua1,ljT^nbmkm!]WJ">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="materialList" id="pe-e|uvqf,N*Fmfyev$C">
+          <field name="FIELDNAME">selection_highlight</field>
+        </block>
+      </value>
+      <value name="VALUE1">
+        <shadow type="objectList" id="PL5FbTNK!}|Qe2+[d*pC">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="AZU1#NHQtgD_crSq/6H#">
+          <field name="FIELDNAME">Object_6.048</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="4:Rk,G!E%,J5!axzN%PP" x="-70" y="210">
+      <value name="ID">
+        <shadow type="text" id="UW4_X*(.Mc^mkBHRt*yt">
+          <field name="TEXT">autorotate</field>
+        </shadow>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="aIsEI{HTm_VdeZDqtIbb">
+          <field name="NUM">5</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="R:{81uP*e)c4bgHDSi=8">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="Uky]o6*xw7mQs@t9rF_z">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="?6WOUUVl;f{!(Ee_TwJl">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="5kW+o%zib9ptF5M)@nE9" inline="false" x="-50" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="+!~V|muOhYN0=[WSX!Ae">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="EJUj:^!m.CH_y:.8-D+^"></block>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="loibH`rK(k`]x0|Bf7AT">
+          <field name="ON_OFF">OFF</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="f%/CZs,|;LVPanN_]26[">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setTimer" id=".nJWD@L6F`b1[gbzC$Z^">
+              <value name="ID">
+                <shadow type="text" id="dgOV`h+7w{w_NbkcQ04{">
+                  <field name="TEXT">autorotate</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="yidx;/8t!=e_#tLmZbII">
+                  <field name="NUM">10</field>
+                </shadow>
+              </value>
+              <value name="REPEAT">
+                <shadow type="math_number" id="DSEsWDN_%;=j)r`$W)lJ">
+                  <field name="NUM">Infinity</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="autoRotateCamera" id="kV3|1C}cA(0JkmT#5PMr">
+                  <field name="ON_OFF">ON</field>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="Irq/C.xfl]N9|9qI`Jg?">
+                      <field name="NUM">2</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="793" viewport-y="31" viewport-w="480" viewport-h="475.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

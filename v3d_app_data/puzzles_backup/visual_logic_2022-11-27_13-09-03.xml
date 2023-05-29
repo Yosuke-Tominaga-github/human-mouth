@@ -1,0 +1,418 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="50.24006487886459" scrolly="1066.5773646900143" scale="0.7404322273126936">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="n*-diKAeq!HjBL(;)rv-" inline="false" x="-30" y="-1170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="*c8ZnNZT+RkL6gB@=];R">
+          <field name="FIELDNAME">Object_6.003</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="assignMaterial" id="^/QiIAz.iyzAXqLQYaM`">
+          <value name="VALUE2">
+            <shadow type="materialList" id="u+$Bc7.oPjn6_-uQ^/Zg">
+              <field name="FIELDNAME">selection_highlight_6.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="HA0WeaWP{#u_X}AZVbe%">
+              <field name="FIELDNAME">Object_6.003</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setMaterialValue" id="eT$mgzB4%(e5.Wv-Y(9c">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+              <field name="MAT_VAL_NAME">値</field>
+              <value name="MATERIAL">
+                <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="materialList" id="WoHWM{!O68HO/CI6Cf-u">
+                  <field name="FIELDNAME">teeth</field>
+                </block>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="doVFi}7K(XN{+.gcumxK">
+                  <field name="NUM">0.5</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setMaterialValue" id="ms}5IeFZ%4f;^M0BvcwT">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="fZ1!D0DfB=2)?#lCZe}j">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="+]82X(M]+Ue*3`~rwCex">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="gh:SN=sXv{1;j0f!l#i}" inline="false" x="-30" y="-910">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="?NyQpt=I-^N.Bz;e/7vO">
+          <field name="FIELDNAME">Object_6.020</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setMaterialValue" id=":P)@}0/5-dbHh?YA),yo">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="nKCIc%%%_j}QvgK=~;e4">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="-?ji_Q@4OH}|D2q$g,wv">
+              <field name="NUM">0.5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setMaterialValue" id="W#|~g/)jvAkhk87kU:@l">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="xZuKFby:1J5,Tu.BYnFx">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="n@mzjh|RdtxIH$l9POgI">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="C8F-g7d@$Bt{2xPo0b;," inline="false" x="-30" y="-730">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="W/UP`-m}-axwN1?,Or0?">
+          <field name="FIELDNAME">Object_6.031</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setMaterialValue" id="nW,8bL?7OsHtexrky[}.">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="KK+6{=#WK[cr9^F#Z:l[">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="wL;Vjo;}d|8Eg@-+_ix$">
+              <field name="NUM">0.5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setMaterialValue" id="|ddk|ltn)-S-A(i5^8.^">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="~cVvtat^eqa`75$@pV5)">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="O01=]F.(6*Gx:+}I0LQr">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id=":dw,k+%2SCI8k~cy*L4s" inline="false" x="-30" y="-510">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="rpHr`*fb@{ExSIfe^vsK">
+          <field name="FIELDNAME">Object_6.048</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setMaterialValue" id="24PP$i1FN__tIxGv%/f{">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="xy.![;v1JZ[OvW|6ClyW">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="tXlL(T)Vl~bd`{.cs5D=">
+              <field name="NUM">0.5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setMaterialValue" id="rro*#k(Ln8Es5v_3Vy@z">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="s+z)]UzvZDY5ovodarn{">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="b2q-}g9,~?H?M9|0A=cd">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="9I$Qz;|zXYoywIyP(9/:" inline="false" x="-30" y="-230">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="^ThR!(wqZR6(+Q`z5q*X">
+          <field name="FIELDNAME">Object_6.061</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setMaterialValue" id="gC%D]5y6ckvo[[B]ZSdO">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="%WRS77?+,~La.R|r4Sn9">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="+%Y:yRw5X%dwuR!$:}#*">
+              <field name="NUM">0.5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setMaterialValue" id="y1th2(3Hb*M$e}EwLg?E">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="gk!|9*_0oHVRw8aV/pNK">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="#:}6PCddaK2-7mc1bdZ-">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="~5XUg41Y_|jfDTN40N$F" inline="false" x="-30" y="-50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Ji7@|0:%V9MSF0=59W(M">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="Hmf?lY)iu8C,H`e+4LG)">
+          <field name="FIELDNAME">Object_6.071</field>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setMaterialValue" id="^w=[[L#,*|dr2NvSe5]Q">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="hI_DA-e-UfZ81YY_sPM4">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id=",,!Gw[^MvA2HA`q+9+jG">
+              <field name="NUM">0.5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setMaterialValue" id="`wf{j}rk%w8AKd6k]V_P">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">値</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="N2`?+0G40,_g^BrCt1#7">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="materialList" id="S)5gXnJ6`8A!tQpsWBxM">
+              <field name="FIELDNAME">teeth</field>
+            </block>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="][RH4Tq/ih%OKmWGOpc6">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="assignMaterial" id="[HxY|ak86GY=}:1KR55E" x="10" y="130">
+      <value name="VALUE2">
+        <shadow type="materialList" id="lKGua1,ljT^nbmkm!]WJ">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="materialList" id="pe-e|uvqf,N*Fmfyev$C">
+          <field name="FIELDNAME">selection_highlight</field>
+        </block>
+      </value>
+      <value name="VALUE1">
+        <shadow type="objectList" id="PL5FbTNK!}|Qe2+[d*pC">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="AZU1#NHQtgD_crSq/6H#">
+          <field name="FIELDNAME">Object_6.048</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="4:Rk,G!E%,J5!axzN%PP" x="-70" y="210">
+      <value name="ID">
+        <shadow type="text" id="UW4_X*(.Mc^mkBHRt*yt">
+          <field name="TEXT">autorotate</field>
+        </shadow>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="aIsEI{HTm_VdeZDqtIbb">
+          <field name="NUM">5</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="R:{81uP*e)c4bgHDSi=8">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="Uky]o6*xw7mQs@t9rF_z">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="?6WOUUVl;f{!(Ee_TwJl">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="5kW+o%zib9ptF5M)@nE9" inline="false" x="-50" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="+!~V|muOhYN0=[WSX!Ae">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="EJUj:^!m.CH_y:.8-D+^"></block>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="loibH`rK(k`]x0|Bf7AT">
+          <field name="ON_OFF">OFF</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="f%/CZs,|;LVPanN_]26[">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setTimer" id=".nJWD@L6F`b1[gbzC$Z^">
+              <value name="ID">
+                <shadow type="text" id="dgOV`h+7w{w_NbkcQ04{">
+                  <field name="TEXT">autorotate</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="yidx;/8t!=e_#tLmZbII">
+                  <field name="NUM">10</field>
+                </shadow>
+              </value>
+              <value name="REPEAT">
+                <shadow type="math_number" id="DSEsWDN_%;=j)r`$W)lJ">
+                  <field name="NUM">Infinity</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="autoRotateCamera" id="kV3|1C}cA(0JkmT#5PMr">
+                  <field name="ON_OFF">ON</field>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="Irq/C.xfl]N9|9qI`Jg?">
+                      <field name="NUM">2</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="793" viewport-y="31" viewport-w="480" viewport-h="475.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
